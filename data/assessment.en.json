@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "assessment_id": "EDGA",
+  "version": "0.1.0",
+  "language": "en",
+  "canonical_language": "en",
+  "audience": "executives, owners and boards",
+  "assessment_type": "evidence",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Unknown / not evidenced"
+    },
+    {
+      "id": "CLAIMED",
+      "label": "Claimed"
+    },
+    {
+      "id": "DOCUMENTED",
+      "label": "Documented"
+    },
+    {
+      "id": "IMPLEMENTED",
+      "label": "Implemented"
+    },
+    {
+      "id": "VERIFIED",
+      "label": "Verified"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED"
+  ],
+  "domains": [
+    {
+      "id": "STRATEGY",
+      "title": "Strategy and value"
+    },
+    {
+      "id": "ACCOUNTABILITY",
+      "title": "Accountability and decision rights"
+    },
+    {
+      "id": "DATA_AI",
+      "title": "Data and AI governance"
+    },
+    {
+      "id": "ARCH_VENDOR",
+      "title": "Architecture and suppliers"
+    },
+    {
+      "id": "RESILIENCE",
+      "title": "Resilience and assurance"
+    },
+    {
+      "id": "PEOPLE_OBLIGATIONS",
+      "title": "People and obligations"
+    }
+  ],
+  "items": [
+    {
+      "id": "E01",
+      "domain": "STRATEGY",
+      "prompt": "Critical services, digital dependencies and acceptable interruption are explicitly defined.",
+      "recommended_action": "Map critical services, their digital dependencies and maximum tolerable interruption.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E02",
+      "domain": "STRATEGY",
+      "prompt": "Digital investments are tied to measurable business outcomes and explicit risks.",
+      "recommended_action": "Require each material investment to state outcomes, risks and an accountable owner.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E03",
+      "domain": "STRATEGY",
+      "prompt": "A target-state digital roadmap exists with owners, dependencies and review dates.",
+      "recommended_action": "Create a dated roadmap linking gaps to owners and milestones.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E04",
+      "domain": "STRATEGY",
+      "prompt": "Benefits and risks are reviewed after major digital changes, not only before approval.",
+      "recommended_action": "Add post-implementation review with benefit evidence, failure modes and residual risk.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E05",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Decision rights for technology, data, AI and cybersecurity are documented.",
+      "recommended_action": "Document who may decide, approve, accept risk and stop a change.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E06",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Critical systems and critical data have named accountable owners.",
+      "recommended_action": "Assign accountable owners, including lifecycle duties.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E07",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Executive escalation thresholds are defined for cyber incidents, outages and material data failures.",
+      "recommended_action": "Define objective triggers for executive notification and decision.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E08",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Leadership receives evidence-based digital-risk reporting rather than only activity metrics.",
+      "recommended_action": "Report exposure, control performance, incidents and unresolved gaps.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E09",
+      "domain": "DATA_AI",
+      "prompt": "Critical data has ownership, quality expectations and handling rules.",
+      "recommended_action": "Define data owners, minimum quality criteria and handling rules.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E10",
+      "domain": "DATA_AI",
+      "prompt": "Consequential data can be traced to its origin and material transformations.",
+      "recommended_action": "Introduce provenance records for consequential data.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E11",
+      "domain": "DATA_AI",
+      "prompt": "The organisation maintains an inventory of material AI uses and who approved them.",
+      "recommended_action": "Create an AI-use register with purpose, owner, data, supplier, impact and approval.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E12",
+      "domain": "DATA_AI",
+      "prompt": "Consequential AI-assisted outputs have explicit human authority and validation boundaries.",
+      "recommended_action": "Define which AI-assisted outputs require human verification and approval.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E13",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Critical third-party, cloud and platform dependencies are inventoried.",
+      "recommended_action": "Maintain a dependency register linked to critical services and data.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E14",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Concentration, portability and exit risks are considered before strategic platform adoption.",
+      "recommended_action": "Require an exit and portability view for strategic suppliers.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E15",
+      "domain": "ARCH_VENDOR",
+      "prompt": "End-of-life technology and material technical debt are visible to leadership.",
+      "recommended_action": "Maintain an executive view of unsupported technology and technical debt.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E16",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Material architecture changes are reviewed for security, resilience and interoperability.",
+      "recommended_action": "Create a lightweight architecture review gate for material changes.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E17",
+      "domain": "RESILIENCE",
+      "prompt": "Degraded-operation expectations are defined for critical processes.",
+      "recommended_action": "Define what must still work, at what minimum level and for how long.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E18",
+      "domain": "RESILIENCE",
+      "prompt": "Recovery evidence includes tested restoration, not only the existence of backups.",
+      "recommended_action": "Require periodic restore tests and retain results.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E19",
+      "domain": "RESILIENCE",
+      "prompt": "Exercises include executive decisions, communications and cross-functional dependencies.",
+      "recommended_action": "Run scenarios that force executive decisions and test suppliers and fallback processes.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E20",
+      "domain": "RESILIENCE",
+      "prompt": "Critical control claims are periodically supported by independent or reproducible evidence.",
+      "recommended_action": "Select critical controls and require testable evidence rather than policy statements alone.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E21",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Digital capability gaps are identified for leadership and key roles.",
+      "recommended_action": "Assess role-specific capability gaps and attach learning or hiring actions.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E22",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Supplier responsibilities for security, data, continuity and incident cooperation are explicit.",
+      "recommended_action": "Review strategic contracts for security, incident, recovery, data and exit duties.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E23",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Material legal, regulatory and contractual digital obligations are mapped to owners and controls.",
+      "recommended_action": "Create an obligation-to-owner-to-control map.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E24",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Assessment findings and lessons are converted into owned actions and reassessed.",
+      "recommended_action": "Track each material gap to an owner, date, evidence requirement and reassessment date.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-09-23",
+  "sources": {
+    "nis2": {
+      "title": "Directive (EU) 2022/2555 (NIS2)",
+      "publisher": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+      "verified_at": "2026-09-23"
+    },
+    "nist_csf20": {
+      "title": "NIST Cybersecurity Framework 2.0",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-csf-20/final",
+      "verified_at": "2026-09-23"
+    },
+    "open_dmat": {
+      "title": "Open Digital Maturity Assessment Tool",
+      "publisher": "European Digital Innovation Hubs Network / European Commission",
+      "url": "https://european-digital-innovation-hubs.ec.europa.eu/open-dma",
+      "verified_at": "2026-09-23"
+    }
+  }
+}

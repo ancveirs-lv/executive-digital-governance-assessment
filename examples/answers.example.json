@@ -1,0 +1,30 @@
+{
+  "assessment_id": "EDGA",
+  "version": "0.1.0",
+  "answers": {
+    "E01": "UNKNOWN",
+    "E02": "CLAIMED",
+    "E03": "DOCUMENTED",
+    "E04": "IMPLEMENTED",
+    "E05": "VERIFIED",
+    "E06": "UNKNOWN",
+    "E07": "CLAIMED",
+    "E08": "DOCUMENTED",
+    "E09": "IMPLEMENTED",
+    "E10": "VERIFIED",
+    "E11": "UNKNOWN",
+    "E12": "CLAIMED",
+    "E13": "DOCUMENTED",
+    "E14": "IMPLEMENTED",
+    "E15": "VERIFIED",
+    "E16": "UNKNOWN",
+    "E17": "CLAIMED",
+    "E18": "DOCUMENTED",
+    "E19": "IMPLEMENTED",
+    "E20": "VERIFIED",
+    "E21": "UNKNOWN",
+    "E22": "CLAIMED",
+    "E23": "DOCUMENTED",
+    "E24": "IMPLEMENTED"
+  }
+}

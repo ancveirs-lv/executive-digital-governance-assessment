@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "assessment_id": "EDGA",
+  "version": "0.1.0",
+  "language": "lv",
+  "canonical_language": "en",
+  "audience": "uzņēmumu vadītāji, īpašnieki un valdes",
+  "assessment_type": "evidence",
+  "states": [
+    {
+      "id": "UNKNOWN",
+      "label": "Nezināms / nav pierādījumu"
+    },
+    {
+      "id": "CLAIMED",
+      "label": "Apgalvots"
+    },
+    {
+      "id": "DOCUMENTED",
+      "label": "Dokumentēts"
+    },
+    {
+      "id": "IMPLEMENTED",
+      "label": "Ieviests"
+    },
+    {
+      "id": "VERIFIED",
+      "label": "Verificēts"
+    }
+  ],
+  "gap_states": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED"
+  ],
+  "domains": [
+    {
+      "id": "STRATEGY",
+      "title": "Stratēģija un vērtība"
+    },
+    {
+      "id": "ACCOUNTABILITY",
+      "title": "Atbildība un lēmumu tiesības"
+    },
+    {
+      "id": "DATA_AI",
+      "title": "Datu un MI pārvaldība"
+    },
+    {
+      "id": "ARCH_VENDOR",
+      "title": "Arhitektūra un piegādātāji"
+    },
+    {
+      "id": "RESILIENCE",
+      "title": "Noturība un apliecināšana"
+    },
+    {
+      "id": "PEOPLE_OBLIGATIONS",
+      "title": "Cilvēki un pienākumi"
+    }
+  ],
+  "items": [
+    {
+      "id": "E01",
+      "domain": "STRATEGY",
+      "prompt": "Kritiskie pakalpojumi, digitālās atkarības un pieļaujamais pārtraukuma laiks ir skaidri definēti.",
+      "recommended_action": "Kartē kritiskos pakalpojumus, to digitālās atkarības un maksimāli pieļaujamo pārtraukumu.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E02",
+      "domain": "STRATEGY",
+      "prompt": "Digitālās investīcijas ir sasaistītas ar izmērāmiem biznesa rezultātiem un skaidriem riskiem.",
+      "recommended_action": "Katram būtiskam ieguldījumam nosaki sagaidāmos rezultātus, riskus un atbildīgo īpašnieku.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E03",
+      "domain": "STRATEGY",
+      "prompt": "Pastāv mērķa digitālās attīstības ceļa karte ar īpašniekiem, atkarībām un pārskatīšanas datumiem.",
+      "recommended_action": "Izveido datētu ceļa karti, sasaistot nepilnības ar īpašniekiem un atskaites punktiem.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E04",
+      "domain": "STRATEGY",
+      "prompt": "Pēc būtiskām digitālām izmaiņām tiek pārskatīti gan ieguvumi, gan riski, ne tikai pirms apstiprināšanas.",
+      "recommended_action": "Ievies pēcieviiešanas pārskatu ar ieguvumu pierādījumiem, atteices scenārijiem un atlikušā riska novērtējumu.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E05",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Lēmumu tiesības tehnoloģiju, datu, MI un kiberdrošības jautājumos ir dokumentētas.",
+      "recommended_action": "Dokumentē, kurš drīkst lemt, apstiprināt, pieņemt risku un apturēt izmaiņas.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E06",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Kritiskām sistēmām un kritiskiem datiem ir nosaukti atbildīgie īpašnieki.",
+      "recommended_action": "Piešķir atbildīgos īpašniekus, ietverot dzīves cikla pienākumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E07",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Ir definēti vadības eskalācijas sliekšņi kiberincidentiem, darbības pārtraukumiem un būtiskām datu kļūmēm.",
+      "recommended_action": "Definē objektīvus nosacījumus vadības informēšanai un lēmumiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E08",
+      "domain": "ACCOUNTABILITY",
+      "prompt": "Vadība saņem pierādījumos balstītus digitālā riska pārskatus, ne tikai aktivitāšu metriku.",
+      "recommended_action": "Ziņo par ekspozīciju, kontroļu darbību, incidentiem un neatrisinātām nepilnībām.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E09",
+      "domain": "DATA_AI",
+      "prompt": "Kritiskiem datiem ir īpašnieki, kvalitātes prasības un apstrādes noteikumi.",
+      "recommended_action": "Definē datu īpašniekus, minimālos kvalitātes kritērijus un apstrādes noteikumus.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E10",
+      "domain": "DATA_AI",
+      "prompt": "Būtisku lēmumu datos var izsekot izcelsmei un nozīmīgām transformācijām.",
+      "recommended_action": "Ievies izcelsmes uzskaiti datiem, kas izmantoti būtiskos lēmumos.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E11",
+      "domain": "DATA_AI",
+      "prompt": "Organizācija uztur būtisku MI lietojumu uzskaiti un informāciju par to apstiprinātājiem.",
+      "recommended_action": "Izveido MI lietojumu reģistru ar mērķi, īpašnieku, datiem, piegādātāju, ietekmi un apstiprinājumu.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E12",
+      "domain": "DATA_AI",
+      "prompt": "Būtiskiem MI atbalstītiem rezultātiem ir skaidras cilvēka pilnvaras un validācijas robežas.",
+      "recommended_action": "Definē, kuri MI atbalstīti rezultāti jāpārbauda un jāapstiprina cilvēkam.",
+      "priority": "high",
+      "source_refs": [
+        "open_dmat"
+      ]
+    },
+    {
+      "id": "E13",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Kritiskās trešo pušu, mākoņpakalpojumu un platformu atkarības ir uzskaitītas.",
+      "recommended_action": "Uzturi atkarību reģistru, sasaistot to ar kritiskajiem pakalpojumiem un datiem.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E14",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Pirms stratēģisku platformu ieviešanas tiek izvērtēti koncentrācijas, pārnesamības un iziešanas riski.",
+      "recommended_action": "Stratēģiskiem piegādātājiem pieprasi iziešanas un pārnesamības plānu.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E15",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Dzīves cikla beigu tehnoloģijas un būtisks tehniskais parāds ir redzams vadībai.",
+      "recommended_action": "Uzturi vadības līmeņa pārskatu par neatbalstītām tehnoloģijām un tehnisko parādu.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E16",
+      "domain": "ARCH_VENDOR",
+      "prompt": "Būtiskas arhitektūras izmaiņas tiek pārskatītas no drošības, noturības un savietojamības viedokļa.",
+      "recommended_action": "Ievies vieglu arhitektūras pārskata vārteju būtiskām izmaiņām.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E17",
+      "domain": "RESILIENCE",
+      "prompt": "Kritiskiem procesiem ir definētas darbības prasības degradētā režīmā.",
+      "recommended_action": "Definē, kam jāturpina darboties, kādā minimālā līmenī un cik ilgi.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E18",
+      "domain": "RESILIENCE",
+      "prompt": "Atjaunošanas pierādījumi ietver pārbaudītu atjaunošanu, ne tikai rezerves kopiju esamību.",
+      "recommended_action": "Pieprasi periodiskus atjaunošanas testus un saglabā rezultātus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E19",
+      "domain": "RESILIENCE",
+      "prompt": "Mācības ietver vadības lēmumus, komunikāciju un starpfunkcionālās atkarības.",
+      "recommended_action": "Veic scenārijus, kas prasa vadības lēmumus un pārbauda piegādātājus un rezerves procesus.",
+      "priority": "normal",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E20",
+      "domain": "RESILIENCE",
+      "prompt": "Būtisku kontroļu apgalvojumi periodiski tiek pamatoti ar neatkarīgiem vai reproducējamiem pierādījumiem.",
+      "recommended_action": "Izvēlies būtiskās kontroles un pieprasi pārbaudāmus pierādījumus, nevis tikai politiku formulējumus.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20"
+      ]
+    },
+    {
+      "id": "E21",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Vadības un būtisko lomu digitālo kompetenču nepilnības tiek identificētas.",
+      "recommended_action": "Novērtē lomu specifiskās kompetenču nepilnības un piesaisti apmācību vai personāla darbības.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E22",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Piegādātāju pienākumi drošības, datu, nepārtrauktības un incidentu sadarbības jomā ir skaidri.",
+      "recommended_action": "Pārskati stratēģiskos līgumus, aptverot drošību, incidentus, atjaunošanu, datus un iziešanu.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E23",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Būtiski juridiskie, regulatīvie un līgumiskie digitālie pienākumi ir sasaistīti ar īpašniekiem un kontrolēm.",
+      "recommended_action": "Izveido pienākumu–īpašnieku–kontroļu karti.",
+      "priority": "high",
+      "source_refs": [
+        "nist_csf20",
+        "nis2"
+      ]
+    },
+    {
+      "id": "E24",
+      "domain": "PEOPLE_OBLIGATIONS",
+      "prompt": "Novērtējuma secinājumi un mācības tiek pārvērstas atbildīgās darbībās un atkārtoti novērtētas.",
+      "recommended_action": "Katru būtisku nepilnību sasaisti ar īpašnieku, termiņu, pierādījumu prasību un atkārtota novērtējuma datumu.",
+      "priority": "normal",
+      "source_refs": [
+        "open_dmat",
+        "nist_csf20"
+      ]
+    }
+  ]
+}

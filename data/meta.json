@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "repository": "ancveirs-lv/executive-digital-governance-assessment",
+  "title_en": "Executive Digital Governance Self-Assessment",
+  "title_lv": "Digitālās pārvaldības pašnovērtējums uzņēmuma vadītājam",
+  "assessment_id": "EDGA",
+  "version": "0.1.0",
+  "expected_item_count": 24,
+  "domain_ids": [
+    "STRATEGY",
+    "ACCOUNTABILITY",
+    "DATA_AI",
+    "ARCH_VENDOR",
+    "RESILIENCE",
+    "PEOPLE_OBLIGATIONS"
+  ],
+  "state_ids": [
+    "UNKNOWN",
+    "CLAIMED",
+    "DOCUMENTED",
+    "IMPLEMENTED",
+    "VERIFIED"
+  ],
+  "assessment_type": "evidence",
+  "global_english": true,
+  "method_note_en": "This project measures governance evidence and decision readiness. It is not an official EDIH/EC assessment, legal opinion, audit or certification.",
+  "method_note_lv": "Šis projekts vērtē pārvaldības pierādījumus un lēmumu gatavību. Tas nav oficiāls EDIH/EK novērtējums, juridisks atzinums, audits vai sertifikācija.",
+  "status": "pilot-baseline"
+}
