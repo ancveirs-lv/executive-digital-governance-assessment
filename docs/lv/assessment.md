@@ -9,6 +9,7 @@
 - `DOCUMENTED` — Dokumentēts
 - `IMPLEMENTED` — Ieviests
 - `VERIFIED` — Verificēts
+- `NOT_APPLICABLE` — Nav attiecināms
 
 ## Novērtējums
 
@@ -104,7 +105,7 @@ Organizācija uztur būtisku MI lietojumu uzskaiti un informāciju par to apstip
 
 **Ieteiktā darbība:** Izveido MI lietojumu reģistru ar mērķi, īpašnieku, datiem, piegādātāju, ietekmi un apstiprinājumu.
 
-**Avoti:** `open_dmat`
+**Avoti:** `nist_ai_rmf`
 
 #### E12
 
@@ -112,7 +113,7 @@ Būtiskiem MI atbalstītiem rezultātiem ir skaidras cilvēka pilnvaras un valid
 
 **Ieteiktā darbība:** Definē, kuri MI atbalstīti rezultāti jāpārbauda un jāapstiprina cilvēkam.
 
-**Avoti:** `open_dmat`
+**Avoti:** `nist_ai_rmf`
 
 ### Arhitektūra un piegādātāji
 
@@ -190,7 +191,7 @@ Vadības un būtisko lomu digitālo kompetenču nepilnības tiek identificētas.
 
 **Ieteiktā darbība:** Novērtē lomu specifiskās kompetenču nepilnības un piesaisti apmācību vai personāla darbības.
 
-**Avoti:** `open_dmat`, `nis2`
+**Avoti:** `open_dmat`
 
 #### E22
 

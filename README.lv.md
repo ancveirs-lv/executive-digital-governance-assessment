@@ -18,6 +18,12 @@ Repozitorijs ir **nepilnību-pārvēršanas-darbībās instruments**, nevis test
 
 Nezināmās zonas paliek redzamas. Projekts apzināti **nerada** vienu kopējo drošības, atbilstības vai brieduma skaitli.
 
+Atbilžu stāvokļu nozīmes ir daļa no mašīnlasāmā metodoloģijas līguma `data/assessment.lv.json`; tie nav skaitliski punkti.
+
+`NOT_APPLICABLE` / `Nav attiecināms` paredzēts tikai patiesi neattiecināmiem punktiem un strukturētā ievadē prasa pamatojumu.
+
+MI uzskaites un cilvēka uzraudzības jautājumi tiek balstīti arī NIST AI RMF; NIS2 atsauces ir ierobežotas ar piemērojamo tvērumu.
+
 ## Ātra palaišana
 
 ```bash
@@ -45,7 +51,7 @@ Jautājumi ir oriģināls projekta formulējums, kas balstīts reģistrētajos a
 
 ## Versijas statuss
 
-`v0.1.0` ir **pilota bāzes versija** pārskatīšanai un kalibrēšanai pirms stabilas 1.0 versijas.
+`v0.1.1` ir **pilota bāzes versija** pārskatīšanai un kalibrēšanai pirms stabilas 1.0 versijas.
 
 ## Autors
 

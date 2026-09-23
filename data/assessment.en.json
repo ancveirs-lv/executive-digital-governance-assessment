@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assessment_id": "EDGA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "en",
   "canonical_language": "en",
   "audience": "executives, owners and boards",
@@ -9,23 +9,33 @@
   "states": [
     {
       "id": "UNKNOWN",
-      "label": "Unknown / not evidenced"
+      "label": "Unknown / not evidenced",
+      "meaning": "The current state cannot be established with reliable information or evidence."
     },
     {
       "id": "CLAIMED",
-      "label": "Claimed"
+      "label": "Claimed",
+      "meaning": "The practice or control is asserted, but no durable artefact or operating evidence is available."
     },
     {
       "id": "DOCUMENTED",
-      "label": "Documented"
+      "label": "Documented",
+      "meaning": "A policy, process or record exists, but operation in practice has not been demonstrated."
     },
     {
       "id": "IMPLEMENTED",
-      "label": "Implemented"
+      "label": "Implemented",
+      "meaning": "The practice or control operates in practice and execution evidence exists."
     },
     {
       "id": "VERIFIED",
-      "label": "Verified"
+      "label": "Verified",
+      "meaning": "Recent direct testing, review or reproducible evidence supports the implementation."
+    },
+    {
+      "id": "NOT_APPLICABLE",
+      "label": "Not applicable",
+      "meaning": "The item is genuinely outside the assessment context; a rationale is required."
     }
   ],
   "gap_states": [
@@ -172,7 +182,7 @@
       "recommended_action": "Create an AI-use register with purpose, owner, data, supplier, impact and approval.",
       "priority": "high",
       "source_refs": [
-        "open_dmat"
+        "nist_ai_rmf"
       ]
     },
     {
@@ -182,7 +192,7 @@
       "recommended_action": "Define which AI-assisted outputs require human verification and approval.",
       "priority": "high",
       "source_refs": [
-        "open_dmat"
+        "nist_ai_rmf"
       ]
     },
     {
@@ -276,8 +286,7 @@
       "recommended_action": "Assess role-specific capability gaps and attach learning or hiring actions.",
       "priority": "normal",
       "source_refs": [
-        "open_dmat",
-        "nis2"
+        "open_dmat"
       ]
     },
     {

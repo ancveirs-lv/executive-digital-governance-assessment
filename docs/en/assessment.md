@@ -9,6 +9,7 @@
 - `DOCUMENTED` — Documented
 - `IMPLEMENTED` — Implemented
 - `VERIFIED` — Verified
+- `NOT_APPLICABLE` — Not applicable
 
 ## Assessment
 
@@ -104,7 +105,7 @@ The organisation maintains an inventory of material AI uses and who approved the
 
 **Recommended action:** Create an AI-use register with purpose, owner, data, supplier, impact and approval.
 
-**Sources:** `open_dmat`
+**Sources:** `nist_ai_rmf`
 
 #### E12
 
@@ -112,7 +113,7 @@ Consequential AI-assisted outputs have explicit human authority and validation b
 
 **Recommended action:** Define which AI-assisted outputs require human verification and approval.
 
-**Sources:** `open_dmat`
+**Sources:** `nist_ai_rmf`
 
 ### Architecture and suppliers
 
@@ -190,7 +191,7 @@ Digital capability gaps are identified for leadership and key roles.
 
 **Recommended action:** Assess role-specific capability gaps and attach learning or hiring actions.
 
-**Sources:** `open_dmat`, `nis2`
+**Sources:** `open_dmat`
 
 #### E22
 

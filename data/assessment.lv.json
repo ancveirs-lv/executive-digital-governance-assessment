@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assessment_id": "EDGA",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "language": "lv",
   "canonical_language": "en",
   "audience": "uzņēmumu vadītāji, īpašnieki un valdes",
@@ -9,23 +9,33 @@
   "states": [
     {
       "id": "UNKNOWN",
-      "label": "Nezināms / nav pierādījumu"
+      "label": "Nezināms / nav pierādījumu",
+      "meaning": "Pašreizējo stāvokli nevar noteikt ar uzticamu informāciju vai pierādījumiem."
     },
     {
       "id": "CLAIMED",
-      "label": "Apgalvots"
+      "label": "Apgalvots",
+      "meaning": "Prakse vai kontrole tiek apgalvota, bet nav noturīga artefakta vai darbības pierādījumu."
     },
     {
       "id": "DOCUMENTED",
-      "label": "Dokumentēts"
+      "label": "Dokumentēts",
+      "meaning": "Pastāv politika, process vai ieraksts, bet darbība praksē nav demonstrēta."
     },
     {
       "id": "IMPLEMENTED",
-      "label": "Ieviests"
+      "label": "Ieviests",
+      "meaning": "Prakse vai kontrole darbojas praksē un ir izpildes pierādījumi."
     },
     {
       "id": "VERIFIED",
-      "label": "Verificēts"
+      "label": "Verificēts",
+      "meaning": "Nesens tiešs tests, pārskats vai reproducējami pierādījumi apstiprina ieviešanu."
+    },
+    {
+      "id": "NOT_APPLICABLE",
+      "label": "Nav attiecināms",
+      "meaning": "Punkts patiešām neattiecas uz novērtējuma kontekstu; nepieciešams pamatojums."
     }
   ],
   "gap_states": [
@@ -172,7 +182,7 @@
       "recommended_action": "Izveido MI lietojumu reģistru ar mērķi, īpašnieku, datiem, piegādātāju, ietekmi un apstiprinājumu.",
       "priority": "high",
       "source_refs": [
-        "open_dmat"
+        "nist_ai_rmf"
       ]
     },
     {
@@ -182,7 +192,7 @@
       "recommended_action": "Definē, kuri MI atbalstīti rezultāti jāpārbauda un jāapstiprina cilvēkam.",
       "priority": "high",
       "source_refs": [
-        "open_dmat"
+        "nist_ai_rmf"
       ]
     },
     {
@@ -276,8 +286,7 @@
       "recommended_action": "Novērtē lomu specifiskās kompetenču nepilnības un piesaisti apmācību vai personāla darbības.",
       "priority": "normal",
       "source_refs": [
-        "open_dmat",
-        "nis2"
+        "open_dmat"
       ]
     },
     {
