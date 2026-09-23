@@ -4,11 +4,12 @@
 
 ## Atbilžu stāvokļi
 
-- `UNKNOWN` — Nezināms / nav pierādījumu
-- `CLAIMED` — Apgalvots
-- `DOCUMENTED` — Dokumentēts
-- `IMPLEMENTED` — Ieviests
-- `VERIFIED` — Verificēts
+- `UNKNOWN` — Nezināms / nav pierādījumu: Pašreizējo stāvokli nevar noteikt ar uzticamu informāciju vai pierādījumiem.
+- `CLAIMED` — Apgalvots: Prakse vai kontrole tiek apgalvota, bet nav noturīga artefakta vai darbības pierādījumu.
+- `DOCUMENTED` — Dokumentēts: Pastāv politika, process vai ieraksts, bet darbība praksē nav demonstrēta.
+- `IMPLEMENTED` — Ieviests: Prakse vai kontrole darbojas praksē un ir izpildes pierādījumi.
+- `VERIFIED` — Verificēts: Nesens tiešs tests, pārskats vai reproducējami pierādījumi apstiprina ieviešanu.
+- `NOT_APPLICABLE` — Nav attiecināms: Punkts patiešām neattiecas uz novērtējuma kontekstu; nepieciešams pamatojums.
 
 ## Novērtējums
 
@@ -104,7 +105,7 @@ Organizācija uztur būtisku MI lietojumu uzskaiti un informāciju par to apstip
 
 **Ieteiktā darbība:** Izveido MI lietojumu reģistru ar mērķi, īpašnieku, datiem, piegādātāju, ietekmi un apstiprinājumu.
 
-**Avoti:** `open_dmat`
+**Avoti:** `nist_ai_rmf`
 
 #### E12
 
@@ -112,7 +113,7 @@ Būtiskiem MI atbalstītiem rezultātiem ir skaidras cilvēka pilnvaras un valid
 
 **Ieteiktā darbība:** Definē, kuri MI atbalstīti rezultāti jāpārbauda un jāapstiprina cilvēkam.
 
-**Avoti:** `open_dmat`
+**Avoti:** `nist_ai_rmf`
 
 ### Arhitektūra un piegādātāji
 
@@ -190,7 +191,7 @@ Vadības un būtisko lomu digitālo kompetenču nepilnības tiek identificētas.
 
 **Ieteiktā darbība:** Novērtē lomu specifiskās kompetenču nepilnības un piesaisti apmācību vai personāla darbības.
 
-**Avoti:** `open_dmat`, `nis2`
+**Avoti:** `open_dmat`
 
 #### E22
 

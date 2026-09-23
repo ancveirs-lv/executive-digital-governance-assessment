@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-09-23 — v0.1.1 skeptical-audit hardening
+
+- defined bilingual response-state semantics;
+- clarified source scope and applicability;
+- preserved the no-aggregate-score methodology;
+- added `NOT_APPLICABLE` with a rationale requirement;
+- strengthened AI inventory and oversight sourcing with NIST AI RMF;
+
 ## 2026-09-23 — v0.1.0 pilot baseline
 
 - bilingual EN/LV assessment source of truth;
