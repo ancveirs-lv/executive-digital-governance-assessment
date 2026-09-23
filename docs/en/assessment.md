@@ -4,12 +4,12 @@
 
 ## Response states
 
-- `UNKNOWN` — Unknown / not evidenced
-- `CLAIMED` — Claimed
-- `DOCUMENTED` — Documented
-- `IMPLEMENTED` — Implemented
-- `VERIFIED` — Verified
-- `NOT_APPLICABLE` — Not applicable
+- `UNKNOWN` — Unknown / not evidenced: The current state cannot be established with reliable information or evidence.
+- `CLAIMED` — Claimed: The practice or control is asserted, but no durable artefact or operating evidence is available.
+- `DOCUMENTED` — Documented: A policy, process or record exists, but operation in practice has not been demonstrated.
+- `IMPLEMENTED` — Implemented: The practice or control operates in practice and execution evidence exists.
+- `VERIFIED` — Verified: Recent direct testing, review or reproducible evidence supports the implementation.
+- `NOT_APPLICABLE` — Not applicable: The item is genuinely outside the assessment context; a rationale is required.
 
 ## Assessment
 

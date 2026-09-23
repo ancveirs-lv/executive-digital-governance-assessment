@@ -4,12 +4,12 @@
 
 ## Atbilžu stāvokļi
 
-- `UNKNOWN` — Nezināms / nav pierādījumu
-- `CLAIMED` — Apgalvots
-- `DOCUMENTED` — Dokumentēts
-- `IMPLEMENTED` — Ieviests
-- `VERIFIED` — Verificēts
-- `NOT_APPLICABLE` — Nav attiecināms
+- `UNKNOWN` — Nezināms / nav pierādījumu: Pašreizējo stāvokli nevar noteikt ar uzticamu informāciju vai pierādījumiem.
+- `CLAIMED` — Apgalvots: Prakse vai kontrole tiek apgalvota, bet nav noturīga artefakta vai darbības pierādījumu.
+- `DOCUMENTED` — Dokumentēts: Pastāv politika, process vai ieraksts, bet darbība praksē nav demonstrēta.
+- `IMPLEMENTED` — Ieviests: Prakse vai kontrole darbojas praksē un ir izpildes pierādījumi.
+- `VERIFIED` — Verificēts: Nesens tiešs tests, pārskats vai reproducējami pierādījumi apstiprina ieviešanu.
+- `NOT_APPLICABLE` — Nav attiecināms: Punkts patiešām neattiecas uz novērtējuma kontekstu; nepieciešams pamatojums.
 
 ## Novērtējums
 

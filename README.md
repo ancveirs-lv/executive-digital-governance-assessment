@@ -14,7 +14,7 @@ This repository is a **gap-to-action instrument**, not a quiz that declares a pe
 
 ## Response model
 
-`UNKNOWN → CLAIMED → DOCUMENTED → IMPLEMENTED → VERIFIED`
+`UNKNOWN → CLAIMED → DOCUMENTED → IMPLEMENTED → VERIFIED` · `NOT_APPLICABLE` with rationale
 
 Unknown areas remain visible. The project intentionally does **not** produce a single overall safety, compliance or maturity score.
 
